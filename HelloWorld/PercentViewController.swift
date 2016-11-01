@@ -84,7 +84,7 @@ class PercentViewController: UIViewController {
             percentfield.text = "\(percent)"
         }
     }
-    
+
     
     @IBAction func tap0Button(sender: AnyObject) {
         let value = percentfield.text! + "0"
