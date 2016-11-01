@@ -104,7 +104,4 @@ class PercentViewController: UIViewController {
         percentfield.text = "0";
     }
     
-    //testtest
-    
-    
 }
