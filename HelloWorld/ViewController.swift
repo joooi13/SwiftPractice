@@ -111,6 +111,21 @@ class ViewController: UIViewController {
         priceField.text = "0"
     }
     
+    @IBAction func restart(segue :UIStoryboardSegue){
+        //0にクリア
+        priceField.text = "0"
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        //次の画面を取り出す
+        let viewController = segue.destinationViewController as! PercentViewController
+        
+        //金額フィールドの文字列を数値に変換
+        if let price = Int(priceField.text!){
+            viewController.price = price
+        }
+    }
+    
 
 }
 

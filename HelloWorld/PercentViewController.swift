@@ -10,6 +10,8 @@ import UIKit
 
 class PercentViewController: UIViewController {
 
+    var price: Int = 0
+    
     @IBOutlet weak var percentfield: UITextField!
     
     override func viewDidLoad() {
@@ -102,6 +104,15 @@ class PercentViewController: UIViewController {
     
     @IBAction func tapClearButton(sender: AnyObject) {
         percentfield.text = "0";
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        let viewController = segue.destinationViewController as! ResultViewController
+        
+        viewController.price = price
+        if let percent = Int(percentfield.text!){
+            viewController.percent = percent
+        }
     }
     
 }
