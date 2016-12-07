@@ -28,7 +28,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nSr-q3-JQx">
-                                <rect key="frame" x="263" y="171" width="75" height="30"/>
+                                <rect key="frame" x="263" y="149" width="75" height="30"/>
                                 <state key="normal" title="データ保存"/>
                                 <connections>
                                     <segue destination="g0K-1t-pbR" kind="modal" id="iZn-mJ-wj7"/>
