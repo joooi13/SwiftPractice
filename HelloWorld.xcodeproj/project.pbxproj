@@ -16,6 +16,8 @@
 		39E5C6651DC627B10088E4FE /* HelloWorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E5C6641DC627B10088E4FE /* HelloWorldUITests.swift */; };
 		39E5C6731DC8DCB90088E4FE /* PercentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E5C6721DC8DCB90088E4FE /* PercentViewController.swift */; };
 		39E5C6751DCB68040088E4FE /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E5C6741DCB68040088E4FE /* ResultViewController.swift */; };
+		39F748801DFD660300943B84 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F7487F1DFD660300943B84 /* MainController.swift */; };
+		39F748841DFD6B7000943B84 /* UserDefaultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F748831DFD6B7000943B84 /* UserDefaultsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		39E5C6661DC627B10088E4FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39E5C6721DC8DCB90088E4FE /* PercentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PercentViewController.swift; sourceTree = "<group>"; };
 		39E5C6741DCB68040088E4FE /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		39F7487F1DFD660300943B84 /* MainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		39F748831DFD6B7000943B84 /* UserDefaultsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,12 +107,14 @@
 			children = (
 				39E5C6441DC627B10088E4FE /* AppDelegate.swift */,
 				39E5C6461DC627B10088E4FE /* ViewController.swift */,
+				39F748831DFD6B7000943B84 /* UserDefaultsController.swift */,
 				39E5C6721DC8DCB90088E4FE /* PercentViewController.swift */,
 				39E5C6481DC627B10088E4FE /* Main.storyboard */,
 				39E5C6741DCB68040088E4FE /* ResultViewController.swift */,
 				39E5C64B1DC627B10088E4FE /* Assets.xcassets */,
 				39E5C64D1DC627B10088E4FE /* LaunchScreen.storyboard */,
 				39E5C6501DC627B10088E4FE /* Info.plist */,
+				39F7487F1DFD660300943B84 /* MainController.swift */,
 			);
 			path = HelloWorld;
 			sourceTree = "<group>";
@@ -269,6 +275,8 @@
 				39E5C6451DC627B10088E4FE /* AppDelegate.swift in Sources */,
 				39E5C6731DC8DCB90088E4FE /* PercentViewController.swift in Sources */,
 				39E5C6751DCB68040088E4FE /* ResultViewController.swift in Sources */,
+				39F748841DFD6B7000943B84 /* UserDefaultsController.swift in Sources */,
+				39F748801DFD660300943B84 /* MainController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -493,6 +501,7 @@
 				39E5C66B1DC627B10088E4FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		39E5C66C1DC627B10088E4FE /* Build configuration list for PBXNativeTarget "HelloWorldTests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +510,7 @@
 				39E5C66E1DC627B10088E4FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		39E5C66F1DC627B10088E4FE /* Build configuration list for PBXNativeTarget "HelloWorldUITests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +519,7 @@
 				39E5C6711DC627B10088E4FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
