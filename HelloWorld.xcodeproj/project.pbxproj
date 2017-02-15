@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		392A752D1E54902600518856 /* WebApiController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392A752C1E54902600518856 /* WebApiController.swift */; };
 		39E5C6451DC627B10088E4FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E5C6441DC627B10088E4FE /* AppDelegate.swift */; };
 		39E5C6471DC627B10088E4FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E5C6461DC627B10088E4FE /* ViewController.swift */; };
 		39E5C64A1DC627B10088E4FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39E5C6481DC627B10088E4FE /* Main.storyboard */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		392A752C1E54902600518856 /* WebApiController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebApiController.swift; sourceTree = "<group>"; };
 		39E5C6411DC627B10088E4FE /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39E5C6441DC627B10088E4FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		39E5C6461DC627B10088E4FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				39E5C6441DC627B10088E4FE /* AppDelegate.swift */,
 				39E5C6461DC627B10088E4FE /* ViewController.swift */,
 				39F748831DFD6B7000943B84 /* UserDefaultsController.swift */,
+				392A752C1E54902600518856 /* WebApiController.swift */,
 				39E5C6721DC8DCB90088E4FE /* PercentViewController.swift */,
 				39E5C6481DC627B10088E4FE /* Main.storyboard */,
 				39E5C6741DCB68040088E4FE /* ResultViewController.swift */,
@@ -274,6 +277,7 @@
 				39E5C6471DC627B10088E4FE /* ViewController.swift in Sources */,
 				39E5C6451DC627B10088E4FE /* AppDelegate.swift in Sources */,
 				39E5C6731DC8DCB90088E4FE /* PercentViewController.swift in Sources */,
+				392A752D1E54902600518856 /* WebApiController.swift in Sources */,
 				39E5C6751DCB68040088E4FE /* ResultViewController.swift in Sources */,
 				39F748841DFD6B7000943B84 /* UserDefaultsController.swift in Sources */,
 				39F748801DFD660300943B84 /* MainController.swift in Sources */,

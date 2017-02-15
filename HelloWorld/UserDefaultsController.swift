@@ -32,11 +32,25 @@ class UserDefaultsController: UIViewController {
         super.didReceiveMemoryWarning()
     }
     
-    @IBAction func test(sender: AnyObject) {
-        
-        let i:Int = 1
-        print(i)
-        
+//    @IBAction func testTap(sender: AnyObject) {
+//        
+//        let userDefaults = NSUserDefaults.standardUserDefaults()
+//        
+//        //テキストに入力された値を保存
+//        userDefaults.setObject(textField.text, forKey: "text")
+//        
+//        //同期指示
+//        userDefaults.synchronize()
+//        
+//    }
+//    @IBAction func test(sender: AnyObject) {
+//        
+//        let i:Int = 1
+//        print(i)
+//
+//    }
+    
+    @IBAction func test1() {
         let userDefaults = NSUserDefaults.standardUserDefaults()
         
         //テキストに入力された値を保存
@@ -44,7 +58,5 @@ class UserDefaultsController: UIViewController {
         
         //同期指示
         userDefaults.synchronize()
-
     }
-    
 }

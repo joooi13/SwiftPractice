@@ -31,14 +31,25 @@
                                 <rect key="frame" x="263" y="149" width="75" height="30"/>
                                 <state key="normal" title="データ保存"/>
                                 <connections>
-                                    <segue destination="g0K-1t-pbR" kind="modal" id="tz1-PA-xsi"/>
+                                    <segue destination="g0K-1t-pbR" kind="modal" id="RXQ-jp-PMe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ztW-HC-Feb">
+                                <rect key="frame" x="285" y="419" width="34" height="34"/>
+                                <state key="normal" title="通信"/>
+                                <connections>
+                                    <segue destination="bIe-W8-GBe" kind="modal" id="3TO-gl-XNg"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="fXp-Ve-OgF" firstAttribute="centerY" secondItem="0Rp-W0-v4p" secondAttribute="centerY" id="EXf-xm-JMD"/>
+                            <constraint firstItem="vuX-36-HyX" firstAttribute="top" secondItem="ztW-HC-Feb" secondAttribute="bottom" constant="147" id="FOh-nE-jj3"/>
+                            <constraint firstItem="ztW-HC-Feb" firstAttribute="top" secondItem="fXp-Ve-OgF" secondAttribute="bottom" constant="104" id="crp-dK-VTM"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ztW-HC-Feb" secondAttribute="trailing" constant="261" id="dEJ-15-6GM"/>
                             <constraint firstItem="fXp-Ve-OgF" firstAttribute="centerX" secondItem="0Rp-W0-v4p" secondAttribute="centerX" id="hYk-Zr-wHh"/>
+                            <constraint firstItem="ztW-HC-Feb" firstAttribute="leading" secondItem="0Rp-W0-v4p" secondAttribute="leadingMargin" constant="265" id="iBO-Ye-iB4"/>
                             <constraint firstItem="nSr-q3-JQx" firstAttribute="centerX" secondItem="0Rp-W0-v4p" secondAttribute="centerX" id="oLd-xo-88g"/>
                             <constraint firstItem="nSr-q3-JQx" firstAttribute="top" secondItem="b6G-uX-4Qu" secondAttribute="bottom" constant="129" id="zlV-2h-e1E"/>
                         </constraints>
@@ -51,7 +62,7 @@
         <!--User Defaults Controller-->
         <scene sceneID="Zvs-8n-qL4">
             <objects>
-                <viewController id="g0K-1t-pbR" customClass="UserDefaultsController" sceneMemberID="viewController">
+                <viewController id="g0K-1t-pbR" customClass="UserDefaultsController" customModule="HelloWorld" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="hLi-mE-Ce4"/>
                         <viewControllerLayoutGuide type="bottom" id="b8z-RZ-3SJ"/>
@@ -72,8 +83,12 @@
                                 <rect key="frame" x="270" y="294" width="61" height="30"/>
                                 <state key="normal" title="BUTTON"/>
                                 <connections>
-                                    <action selector="test:" destination="g0K-1t-pbR" eventType="touchUpInside" id="YPD-Qo-IBM"/>
+                                    <action selector="test1" destination="g0K-1t-pbR" eventType="touchUpInside" id="Ffa-m8-yaJ"/>
                                 </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mi9-uU-YIH">
+                                <rect key="frame" x="282" y="357" width="37" height="30"/>
+                                <state key="normal" title="TEST"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -289,6 +304,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-119" y="119"/>
+        </scene>
+        <!--Web Api Controller-->
+        <scene sceneID="64Z-y6-Jdc">
+            <objects>
+                <viewController id="bIe-W8-GBe" customClass="WebApiController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nNI-Ba-bfi"/>
+                        <viewControllerLayoutGuide type="bottom" id="Pek-px-MqP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xbH-Ib-eVF">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HCt-IO-ug6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-119" y="802"/>
         </scene>
         <!--Percent View Controller-->
         <scene sceneID="RlO-sw-saB">
